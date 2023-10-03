@@ -75,6 +75,7 @@ return array(
     'OpenSearch\\' => array($vendorDir . '/opensearch-project/opensearch-php/src/OpenSearch'),
     'OTPHP\\' => array($vendorDir . '/spomky-labs/otphp/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'MarkShust\\LayoutHandleLogger\\' => array($vendorDir . '/markshust/magento2-module-layouthandlelogger'),
     'Magento\\Wishlist\\' => array($vendorDir . '/magento/module-wishlist'),
     'Magento\\WishlistSampleData\\' => array($vendorDir . '/magento/module-wishlist-sample-data'),
     'Magento\\WishlistGraphQl\\' => array($vendorDir . '/magento/module-wishlist-graph-ql'),

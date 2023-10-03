@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="heapmodule_blog_post_detail_view">
+        <observer name="heapmodule_blog_observer_log_post_detail_view" instance="Heapmodule\Blog\Observer\LogPostDetailView"/>
+    </event>
+</config>

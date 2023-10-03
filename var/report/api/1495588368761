@@ -1,0 +1,1 @@
+"Fatal Error: 'Cannot declare class Heapmodule\\Blog\\Setup\\Patch\\Data\\PopulateBlogPosts, because the name is already in use' in '\/var\/www\/html\/magento2\/app\/code\/Heapmodule\/Blog\/Model\/Post.php' on line 10"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8632069e8f5b4116a4a1b1a7bbf828f",
+    "content-hash": "4588ec9af4da773544e83ed6064cf2da",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -18402,6 +18402,44 @@
             "time": "2023-08-25T12:52:21+00:00"
         },
         {
+            "name": "markshust/magento2-module-layouthandlelogger",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markshust/magento2-module-layouthandlelogger.git",
+                "reference": "46a70f444f310312b5ddb3833c41d104ae539c0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markshust/magento2-module-layouthandlelogger/zipball/46a70f444f310312b5ddb3833c41d104ae539c0e",
+                "reference": "46a70f444f310312b5ddb3833c41d104ae539c0e",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": ">=103",
+                "php": "^8"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MarkShust\\LayoutHandleLogger\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The LayoutHandleLogger module displays layout handles when in developer mode.",
+            "support": {
+                "issues": "https://github.com/markshust/magento2-module-layouthandlelogger/issues",
+                "source": "https://github.com/markshust/magento2-module-layouthandlelogger/tree/1.0.0"
+            },
+            "time": "2023-02-07T00:34:02+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "2.9.1",
             "source": {
@@ -27537,5 +27575,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }

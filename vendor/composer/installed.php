@@ -4315,6 +4315,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'markshust/magento2-module-layouthandlelogger' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => '46a70f444f310312b5ddb3833c41d104ae539c0e',
+            'type' => 'magento2-module',
+            'install_path' => __DIR__ . '/../markshust/magento2-module-layouthandlelogger',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'monolog/monolog' => array(
             'pretty_version' => '2.9.1',
             'version' => '2.9.1.0',

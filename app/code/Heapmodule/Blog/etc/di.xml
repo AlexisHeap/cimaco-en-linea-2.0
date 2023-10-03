@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Heapmodule\Blog\Api\Data\PostInterface" type="Heapmodule\Blog\Model\Post"/>
+    <preference for="Heapmodule\Blog\Api\PostRepositoryInterface" type="Heapmodule\Blog\Model\PostRepository"/>
+</config>
