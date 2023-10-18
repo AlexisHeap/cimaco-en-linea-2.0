@@ -1,0 +1,1 @@
+/var/www/html/magento2/app/design/frontend/Heapstash/cimaco/Cimaco_Theme/web/js/aos-init.js

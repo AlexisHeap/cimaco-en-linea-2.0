@@ -1035,6 +1035,23 @@ var config = {
 require.config(config);
 })();
 (function() {
+var config = {
+    config: {
+        mixins: {
+            'Magento_Checkout/js/view/summary/cart-items': {
+                'Heapmodule_CheckoutMessages/js/view/summary/cart-items-mixin': true
+            }
+        }
+    },
+    map: {
+        '*': {
+            'Magento_Checkout/template/sidebar': 'Heapmodule_CheckoutMessages/template/sidebar'
+        }
+    }
+};
+require.config(config);
+})();
+(function() {
 /**
  * Config to pull in all the relevant Braintree JS SDKs
  * @type {{paths: {braintreePayPalInContextCheckout: string, braintreePayPalCheckout: string, braintreeVenmo: string, braintreeHostedFields: string, braintreeDataCollector: string, braintreeThreeDSecure: string, braintreeGooglePay: string, braintreeApplePay: string, braintreeAch: string, braintreeLpm: string, googlePayLibrary: string}, map: {"*": {braintree: string}}}}
@@ -1099,6 +1116,14 @@ var config = {
     ]
 };
 
+require.config(config);
+})();
+(function() {
+var config = {
+    paths: {
+        'aos': 'https://unpkg.com/aos@2.3.1/dist/aos'
+    }
+};
 require.config(config);
 })();
 

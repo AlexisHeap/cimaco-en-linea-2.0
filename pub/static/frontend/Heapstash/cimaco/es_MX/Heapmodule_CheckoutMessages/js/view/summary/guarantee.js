@@ -1,0 +1,1 @@
+/var/www/html/magento2/app/code/Heapmodule/CheckoutMessages/view/frontend/web/js/view/summary/guarantee.js

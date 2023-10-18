@@ -1,0 +1,1 @@
+/var/www/html/magento2/app/code/Heapmodule/FreeShippingPromo/view/frontend/web/js/free-shipping-banner.js
